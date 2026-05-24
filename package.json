@@ -1,0 +1,61 @@
+{
+  "name": "yhc-dev-react-hooks",
+  "version": "0.1.0",
+  "description": "React hooks built from real-world admin, H5, and mini-program projects.",
+  "author": "yangyanghongchao <yangyanghongchao@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@11.0.9",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:user-xxy/yhc-dev-react-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/user-xxy/yhc-dev-react-hooks/issues"
+  },
+  "homepage": "https://github.com/user-xxy/yhc-dev-react-hooks#readme",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rimraf dist",
+    "typecheck": "tsc --noEmit",
+    "prepare": "pnpm build",
+    "prepublishOnly": "pnpm typecheck"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "react": "^18.3.1",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "typescript",
+    "local-storage",
+    "websocket"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
