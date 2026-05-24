@@ -1,5 +1,5 @@
 {
-  "name": "yhc-dev-react-hooks",
+  "name": "@user-xxy/react-hooks",
   "version": "0.1.0",
   "description": "React hooks built from real-world admin, H5, and mini-program projects.",
   "author": "yangyanghongchao <yangyanghongchao@gmail.com>",
@@ -8,12 +8,12 @@
   "packageManager": "pnpm@11.0.9",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/user-xxy/yhc-dev-react-hooks.git"
+    "url": "git+https://github.com/user-xxy/react-hooks.git"
   },
   "bugs": {
-    "url": "https://github.com/user-xxy/yhc-dev-react-hooks/issues"
+    "url": "https://github.com/user-xxy/react-hooks/issues"
   },
-  "homepage": "https://github.com/user-xxy/yhc-dev-react-hooks#readme",
+  "homepage": "https://github.com/user-xxy/react-hooks#readme",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

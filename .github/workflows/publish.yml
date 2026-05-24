@@ -42,7 +42,7 @@ jobs:
         run: pnpm build
 
       - name: Publish to npm
-        run: npm publish --provenance
+        run: npm publish --access public --provenance --registry=https://registry.npmjs.org
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -78,9 +78,6 @@ jobs:
 
       - name: Build
         run: pnpm build
-
-      - name: Prepare GitHub package metadata
-        run: node .github/scripts/prepare-github-package.mjs
 
       - name: Publish to GitHub Packages
         run: npm publish --registry=https://npm.pkg.github.com

@@ -1,10 +1,10 @@
-# yhc-dev-react-hooks
+# @user-xxy/react-hooks
 
 React hooks for browser apps, distilled from real-world admin, H5, and
 mini-program projects.
 
 ```bash
-pnpm add yhc-dev-react-hooks
+pnpm add @user-xxy/react-hooks
 # peer dependency
 pnpm add react
 ```
@@ -69,8 +69,8 @@ pnpm build
 
 Publishing is handled by GitHub Actions:
 
-- npm registry: `yhc-dev-react-hooks`
-- GitHub Packages: `@user-xxy/yhc-dev-react-hooks`
+- npm registry: `@user-xxy/react-hooks`
+- GitHub Packages: `@user-xxy/react-hooks`
 
 Add an `NPM_TOKEN` repository secret with publish permission, then either create
 a GitHub Release or run the `Publish packages` workflow manually.
