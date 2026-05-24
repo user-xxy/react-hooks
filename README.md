@@ -65,6 +65,16 @@ pnpm typecheck
 pnpm build
 ```
 
+## Publish
+
+Publishing is handled by GitHub Actions:
+
+- npm registry: `yhc-dev-react-hooks`
+- GitHub Packages: `@user-xxy/yhc-dev-react-hooks`
+
+Add an `NPM_TOKEN` repository secret with publish permission, then either create
+a GitHub Release or run the `Publish packages` workflow manually.
+
 ## License
 
 MIT

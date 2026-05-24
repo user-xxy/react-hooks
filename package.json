@@ -8,7 +8,7 @@
   "packageManager": "pnpm@11.0.9",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:user-xxy/yhc-dev-react-hooks.git"
+    "url": "git+https://github.com/user-xxy/yhc-dev-react-hooks.git"
   },
   "bugs": {
     "url": "https://github.com/user-xxy/yhc-dev-react-hooks/issues"
